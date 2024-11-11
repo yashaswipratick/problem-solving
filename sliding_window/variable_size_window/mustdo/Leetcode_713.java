@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.variable_size_window.mustdo;
+package sliding_window.variable_size_window.mustdo;
 
 //problem link - https://leetcode.com/problems/subarray-product-less-than-k/description/
 public class Leetcode_713 {

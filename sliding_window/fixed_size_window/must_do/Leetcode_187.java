@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window.must_do;
+package sliding_window.fixed_size_window.must_do;
 
 import java.util.*;
 import java.util.stream.Collectors;

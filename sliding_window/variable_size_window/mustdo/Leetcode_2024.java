@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.variable_size_window.mustdo;
+package sliding_window.variable_size_window.mustdo;
 
 // Problem link - https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/
 public class Leetcode_2024 {

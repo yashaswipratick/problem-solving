@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window.gfg;
+package sliding_window.fixed_size_window.gfg;
 
 import java.util.ArrayList;
 

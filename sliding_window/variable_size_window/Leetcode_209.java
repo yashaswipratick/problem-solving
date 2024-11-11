@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.variable_size_window;
+package sliding_window.variable_size_window;
 
 //Problem link - https://leetcode.com/problems/minimum-size-subarray-sum/description/
 public class Leetcode_209 {

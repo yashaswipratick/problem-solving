@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window;
+package sliding_window.fixed_size_window;
 
 import java.util.HashMap;
 import java.util.Map;

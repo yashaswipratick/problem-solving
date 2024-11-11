@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window;
+package sliding_window.fixed_size_window;
 
 //Problem Link - https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
 public class Leetcode_1343 {

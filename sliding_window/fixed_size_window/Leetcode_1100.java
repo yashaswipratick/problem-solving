@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window;
+package sliding_window.fixed_size_window;
 
 //Problem Link - https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/description/
 public class Leetcode_1100 {

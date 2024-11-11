@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.variable_size_window.mustdo;
+package sliding_window.variable_size_window.mustdo;
 
 import java.util.Arrays;
 

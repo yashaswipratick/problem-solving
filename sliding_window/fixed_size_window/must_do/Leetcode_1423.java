@@ -1,4 +1,4 @@
-package com.yashaswi.pattern.based.problems.sliding_window.fixed_size_window.must_do;
+package sliding_window.fixed_size_window.must_do;
 
 //Problem Link - https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
 //Reference - https://www.youtube.com/watch?v=pBWCOCS636U
