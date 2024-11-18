@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c02dcf8d-3957-4d73-a4c3-0f1ddb96fb75" name="Changes" comment="Refractored code and added new problems.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/variable_size_window/Leetcode_2260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/variable_size_window/mustdo/Leetcode_1208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/variable_size_window/mustdo/Leetcode_3.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yashaswipratick&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yashaswipratick/problem-solving.git&quot;,
+    &quot;accountId&quot;: &quot;44a1af91-df63-4f8b-8c6f-d1238a66fce4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2olIgBUlt86UKfxT3bfb2PK367g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Leetcode_1208.executor": "Run",
+    "Application.Leetcode_2260.executor": "Run",
+    "Application.Leetcode_2730.executor": "Run",
+    "Application.Leetcode_3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Leetcode_3">
+    <configuration name="Leetcode_1208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sliding_window.variable_size_window.mustdo.Leetcode_1208" />
+      <module name="problem-solving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sliding_window.variable_size_window.mustdo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode_2260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sliding_window.variable_size_window.Leetcode_2260" />
+      <module name="problem-solving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sliding_window.variable_size_window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode_2730" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sliding_window.variable_size_window.mustdo.Leetcode_2730" />
+      <module name="problem-solving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sliding_window.variable_size_window.mustdo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sliding_window.variable_size_window.mustdo.Leetcode_3" />
+      <module name="problem-solving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sliding_window.variable_size_window.mustdo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="problem-solving" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Leetcode_3" />
+        <item itemvalue="Application.Leetcode_1208" />
+        <item itemvalue="Application.Leetcode_2260" />
+        <item itemvalue="Application.Leetcode_2730" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c02dcf8d-3957-4d73-a4c3-0f1ddb96fb75" name="Changes" comment="" />
+      <created>1731437843958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731437843958</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Refractored code and added new problems.">
+      <option name="closed" value="true" />
+      <created>1731667570097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731667570097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refractored code and added new problems.">
+      <option name="closed" value="true" />
+      <created>1731667692066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731667692066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Refractored code and added new problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refractored code and added new problems." />
+  </component>
+</project>
