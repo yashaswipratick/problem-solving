@@ -1,4 +1,4 @@
-package arrays.easy;
+package arrays.easy.mustdo;
 
 //Problem Link - https://leetcode.com/problems/majority-element/
 public class Leetcode_169 {
