@@ -1,3 +1,83 @@
+# Sorting Algorithms
+
+A list of common **sorting algorithms**, categorized by their **time complexity** and **sorting strategy**.
+
+---
+
+## 📌 1. Comparison-Based Sorting Algorithms
+These algorithms compare elements to determine their order.
+
+### 🔹 A. O(n²) - Quadratic Time (Brute Force)
+Used for small datasets due to their inefficiency on large data.
+
+```plaintext
+Algorithm      | Best Case  | Average Case | Worst Case | Stable? | In-Place?
+-------------- | ----------|------------- |------------ |-------- |---------
+Bubble Sort    | O(n)      | O(n²)        | O(n²)      | ✅ Yes  | ✅ Yes
+Selection Sort | O(n²)     | O(n²)        | O(n²)      | ❌ No   | ✅ Yes
+Insertion Sort | O(n)      | O(n²)        | O(n²)      | ✅ Yes  | ✅ Yes
+```
+
+---
+
+### 🔹 B. O(n log n) - Efficient Sorting (Divide & Conquer)
+Used for large datasets as they scale better.
+
+```plaintext
+Algorithm      | Best Case  | Average Case | Worst Case | Stable? | In-Place?
+-------------- | ----------|------------- |------------ |-------- |---------
+Merge Sort     | O(n log n)| O(n log n)   | O(n log n) | ✅ Yes  | ❌ No
+Quick Sort     | O(n log n)| O(n log n)   | O(n²)      | ❌ No   | ✅ Yes
+Heap Sort      | O(n log n)| O(n log n)   | O(n log n) | ❌ No   | ✅ Yes
+```
+
+---
+
+## 📌 2. Non-Comparison Sorting Algorithms (Faster than O(n log n))
+These work by distributing elements into buckets instead of direct comparisons.
+
+```plaintext
+Algorithm       | Best Case  | Average Case | Worst Case | Stable? | In-Place? | Notes
+--------------- | ----------|------------- |------------ |-------- |---------  |------
+Counting Sort   | O(n+k)    | O(n+k)       | O(n+k)     | ✅ Yes  | ❌ No     | Only for integers
+Radix Sort      | O(nk)     | O(nk)        | O(nk)      | ✅ Yes  | ❌ No     | Works well with integers and strings
+Bucket Sort     | O(n+k)    | O(n)         | O(n²)      | ✅ Yes  | ❌ No     | Best when input is uniformly distributed
+```
+
+---
+
+## 📌 3. Hybrid Sorting Algorithms
+These combine multiple strategies to optimize sorting.
+
+```plaintext
+Algorithm   | Best Case  | Average Case | Worst Case | Stable? | Notes
+----------- | ----------|------------- |------------ |-------- |------
+Timsort     | O(n)      | O(n log n)   | O(n log n) | ✅ Yes  | Used in Python & Java’s built-in sorting
+Introsort   | O(n log n)| O(n log n)   | O(n log n) | ❌ No   | Mix of QuickSort, HeapSort, and Insertion Sort
+```
+
+---
+
+## 📌 Which Sorting Algorithm Should You Use?
+✅ **For small datasets (n < 50):**
+- **Insertion Sort** (if nearly sorted)
+- **Selection Sort** (if memory is a concern)
+
+✅ **For general sorting:**
+- **Merge Sort** (when stability is needed)
+- **QuickSort** (for speed and in-place sorting)
+- **Heap Sort** (when worst-case guarantee is needed)
+
+✅ **For large numbers and integers:**
+- **Counting Sort** / **Radix Sort** (when range is small)
+
+✅ **For real-world applications:**
+- **Timsort** (used in Python, Java, Android)
+- **Introsort** (used in C++ STL sort)
+
+
+
+
 # Sliding Window Problems
 
 ## Fixed Size Window Pattern Problems
