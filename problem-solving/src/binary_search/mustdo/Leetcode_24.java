@@ -22,7 +22,7 @@ public class Leetcode_24 {
      * @param target
      * @return
      */
-    public static int[] searchRange(int[] nums, int target) {
+    public int[] searchRange(int[] nums, int target) {
         int firstOccurrence = findFirstOccurrence(nums, target);
         int lastOccurrence = findLastOccurrence(nums, target);
 
@@ -32,7 +32,7 @@ public class Leetcode_24 {
         return arr;
     }
 
-    private static int findFirstOccurrence(int[] nums, int target) {
+    private int findFirstOccurrence(int[] nums, int target) {
 
         int start = 0;
         int end = nums.length - 1;
@@ -54,7 +54,7 @@ public class Leetcode_24 {
         return res;
     }
 
-    private static int findLastOccurrence(int[] nums, int target) {
+    private int findLastOccurrence(int[] nums, int target) {
 
         int start = 0;
         int end = nums.length - 1;
@@ -77,13 +77,15 @@ public class Leetcode_24 {
     }
 
     public static void main(String[] args) {
-        int[] res = searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8);
+        Leetcode_24 leetcode24 = new Leetcode_24();
+
+        int[] res = leetcode24.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8);
         System.out.println(res[0] + " -> " + res[1]);
 
-        int[] res1 = searchRange(new int[]{5,7,7,8,8,10}, 6);
+        int[] res1 = leetcode24.searchRange(new int[]{5,7,7,8,8,10}, 6);
         System.out.println(res1[0] + " -> " + res1[1]);
 
-        int[] res2 = searchRange(new int[]{}, 0);
+        int[] res2 = leetcode24.searchRange(new int[]{}, 0);
         System.out.println(res2[0] + " -> " + res2[1]);
     }
 }
